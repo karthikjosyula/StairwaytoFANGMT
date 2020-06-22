@@ -6,9 +6,9 @@
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
-        if (headA == None):
+        if (headA == None or headA.next == None):
             return None
-        elif (headB == None):
+        elif (headB == None or headB.next == None):
             return None
         else:
             n1 = 0
