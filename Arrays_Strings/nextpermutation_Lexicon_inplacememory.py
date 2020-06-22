@@ -35,8 +35,8 @@ def nextPermutation(nums):
             k+=1
     return nums
 
-print(nextPermutation([3,2,1]))
---5,3,3,3,6,7,8,9,9
+print(nextPermutation([3,2,1,0,9,6,7]))
+#5,3,3,3,6,7,8,9,9
 
 
 
