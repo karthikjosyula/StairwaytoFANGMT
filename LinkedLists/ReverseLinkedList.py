@@ -5,9 +5,9 @@ class Solution:
             self.val = val
             self.next = next
 
-        def reverseList(self, head):
-            prev= None
-            curr = head
-            while curr:
-                curr.next, prev, curr  = prev, curr, curr.next
-            return prev
+    def reverseList(self, head: ListNode) -> ListNode:
+        curr = head
+        prev = None
+        while curr:
+            curr.next, prev, curr = prev, curr, curr.next
+        return prev
